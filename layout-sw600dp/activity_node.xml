@@ -10,14 +10,16 @@
         android:layout_alignParentTop="true"
         android:background="@drawable/title_bg" >
 
-        <ImageButton
-            android:id="@+id/ibNodeBookmark"
+        <ToggleButton
+            android:id="@+id/tbNodeBookmark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:background="@null"
-            android:contentDescription="@string/ib_node_bookmark_content_description"
-            android:src="@drawable/button_plus_square" />
+            android:contentDescription="@string/tb_node_bookmark_content_description"
+            android:src="@drawable/bookmarks_button"
+            android:textOff=""
+            android:textOn="" />
 
         <ImageButton
             android:id="@+id/ibNodeSettings"
@@ -26,7 +28,7 @@
             android:layout_alignParentRight="true"
             android:background="@null"
             android:contentDescription="@string/ib_node_settings_content_description"
-            android:src="@drawable/button_settings_square" />
+            android:src="@drawable/button_settings_icon" />
 
         <TextView
             android:id="@+id/tvNodeTitle"
@@ -34,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:layout_toLeftOf="@id/ibNodeSettings"
-            android:layout_toRightOf="@id/ibNodeBookmark"
+            android:layout_toRightOf="@id/tbNodeBookmark"
             android:gravity="center"
             android:inputType="none"
             android:textColor="#ffffff"
