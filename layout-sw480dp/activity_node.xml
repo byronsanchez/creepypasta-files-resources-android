@@ -15,9 +15,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:background="@null"
+            android:background="@drawable/bookmarks_button"
             android:contentDescription="@string/tb_node_bookmark_content_description"
-            android:src="@drawable/bookmarks_button"
             android:textOff=""
             android:textOn="" />
 
@@ -39,7 +38,7 @@
             android:layout_toRightOf="@id/tbNodeBookmark"
             android:gravity="center"
             android:inputType="none"
-            android:textColor="#ffffff"
+            android:textColor="#C4C4C4"
             android:textSize="24sp"
             android:textStyle="bold" />
     </RelativeLayout>
@@ -59,8 +58,8 @@
             ads:adUnitId="YOUR_AD_UNIT_ID"
             ads:backgroundColor="#000000"
             ads:loadAdOnCreate="false"
-            ads:primaryTextColor="#FFFFFF"
-            ads:secondaryTextColor="#CCCCCC" />
+            ads:primaryTextColor="#C4C4C4"
+            ads:secondaryTextColor="#AAAAAA" />
     </RelativeLayout>
 
     <ScrollView
@@ -76,7 +75,8 @@
             android:layout_height="wrap_content"
             android:background="#000000"
             android:inputType="none"
-            android:textColor="#ffffff" />
+            android:padding="6dp"
+            android:textColor="#C4C4C4" />
     </ScrollView>
 
 </RelativeLayout>
