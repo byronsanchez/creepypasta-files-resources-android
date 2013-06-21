@@ -9,7 +9,7 @@
     <string name="tv_shop_no_ads_label">TextView</string>
     <string name="ib_shop_no_ads_buy_content_description">Button to buy the no-ads feature.</string>
     <string name="ib_node_settings_content_description">Button to navigate to the settings screen.</string>
-    <string name="ib_node_bookmark_content_description">Button to bookmark the current story.</string>
+    <string name="tb_node_bookmark_content_description">Button to bookmark the current story.</string>
     <string name="tv_settings_label">[settings]</string>
     <string name="tv_settings_text_size_label">Text Size</string>
     <string name="tv_settings_shop_label">Visit Shop</string>
