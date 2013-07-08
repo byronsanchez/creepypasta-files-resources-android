@@ -62,21 +62,20 @@
             ads:secondaryTextColor="#AAAAAA" />
     </RelativeLayout>
 
-    <ScrollView
-        android:id="@+id/svNode"
+    <RelativeLayout
+        android:id="@+id/rlNodeBody"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/rlNodeAds"
         android:layout_below="@id/rlNode" >
 
-        <TextView
-            android:id="@+id/tvNodeBody"
+        <net.globide.creepypasta_files_07.PinchToZoomWebView
+            android:id="@+id/wvNodeBody"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="#000000"
-            android:inputType="none"
             android:padding="9dp"
             android:textColor="#C4C4C4" />
-    </ScrollView>
+    </RelativeLayout>
 
 </RelativeLayout>
