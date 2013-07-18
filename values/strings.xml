@@ -31,6 +31,7 @@
 <b>Settings</b> - Configure story text size, visit the shop, or view production credits.<br /><br />
 
 <b>Help</b> - View this help screen.]]></string>
+    <string name="admob_pub_id">YOUR_AD_UNIT_ID</string>
     
 
 </resources>
